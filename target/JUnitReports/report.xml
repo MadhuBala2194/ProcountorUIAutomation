@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="72.82">
+    <testcase classname="User login Procountor webpage and upload files with csv format under Data import category" name="User login wepage and upload the file under data import" time="18.152">
+        <system-out><![CDATA[Given user enter into the application site..................................passed
+When user enter username and password.......................................passed
+And login to the application................................................passed
+When user clicks management and select import data..........................passed
+Then user selects Import Invoices from Import type dropdown.................passed
+And user choose file of csv format from drive...............................passed
+Then user validates that import is successful and click on save.............passed
+And user views the imported invoice.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User login Procountor webpage and upload files with csv format under Data import category" name="User login wepage and upload the file zip under data import" time="20.787">
+        <system-out><![CDATA[Given user enter into the application site..................................passed
+When user enter username and password.......................................passed
+And login to the application................................................passed
+When user clicks management and select import data..........................passed
+Then user selects Import Invoices from Import type dropdown.................passed
+And user choose file of zip format from drive...............................passed
+Then user validates that import is successful and click on save.............passed
+And user views the imported invoice.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User login Procountor webpage and upload files with csv format under Data import category" name="User login wepage and upload invalid file format under data import" time="16.309">
+        <system-out><![CDATA[Given user enter into the application site..................................passed
+When user enter username and password.......................................passed
+And login to the application................................................passed
+When user clicks management and select import data..........................passed
+Then user selects Import Invoices from Import type dropdown.................passed
+And user choose file of invalid format from drive...........................passed
+Then user validates that import is unsuccessful and click on Ok button......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User login Procountor webpage and upload files with csv format under Data import category" name="User login wepage and upload incorrect csv file under data import" time="17.346">
+        <system-out><![CDATA[Given user enter into the application site..................................passed
+When user enter username and password.......................................passed
+And login to the application................................................passed
+When user clicks management and select import data..........................passed
+Then user selects Import Invoices from Import type dropdown.................passed
+And user choose file with incorrect csv file from drive.....................passed
+Then user validates that import is unsuccessful and click on cancel button..passed
+]]></system-out>
+    </testcase>
+</testsuite>

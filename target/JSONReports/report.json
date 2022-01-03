@@ -1,0 +1,505 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-03T15:57:34.665Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5838153600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User login wepage and upload the file under data import",
+        "description": "",
+        "id": "user-login-procountor-webpage-and-upload-files-with-csv-format-under-data-import-category;user-login-wepage-and-upload-the-file-under-data-import",
+        "after": [
+          {
+            "result": {
+              "duration": 237182700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21913800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter into the application site",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_enter_into_the_application_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 310168400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3206357500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login to the application",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1165882300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks management and select import data",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_clicks_management_and_select_import_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1396248400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects Import Invoices from Import type dropdown",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_selects_Import_invoces_from_Import_type_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 378666000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user choose file of csv format from drive",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_choose_cvs_file_from_drive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1343177300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user validates that import is successful and click on save",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_validates_that_import_successful_and_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4161247600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user views the imported invoice",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_views_the_imported_invoice()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-03T15:57:52.828Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4516769500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User login wepage and upload the file zip under data import",
+        "description": "",
+        "id": "user-login-procountor-webpage-and-upload-files-with-csv-format-under-data-import-category;user-login-wepage-and-upload-the-file-zip-under-data-import",
+        "after": [
+          {
+            "result": {
+              "duration": 4400439800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter into the application site",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_enter_into_the_application_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 264294800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3502311600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "login to the application",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 970833900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user clicks management and select import data",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_clicks_management_and_select_import_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1374202600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user selects Import Invoices from Import type dropdown",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_selects_Import_invoces_from_Import_type_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 411744900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user choose file of zip format from drive",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_choose_zip_file_from_drive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1369986600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user validates that import is successful and click on save",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_validates_that_import_successful_and_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3966634700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user views the imported invoice",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_views_the_imported_invoice()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-03T15:58:13.618Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4662896500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User login wepage and upload invalid file format under data import",
+        "description": "",
+        "id": "user-login-procountor-webpage-and-upload-files-with-csv-format-under-data-import-category;user-login-wepage-and-upload-invalid-file-format-under-data-import",
+        "after": [
+          {
+            "result": {
+              "duration": 4315993600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2990300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enter into the application site",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_enter_into_the_application_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 320144900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3782989100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "login to the application",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1390284900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks management and select import data",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_clicks_management_and_select_import_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1409232300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user selects Import Invoices from Import type dropdown",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_selects_Import_invoces_from_Import_type_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 353053800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user choose file of invalid format from drive",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_choose_invalid_file_from_drive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68825200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user validates that import is unsuccessful and click on Ok button",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_validates_that_import_is_unsuccessful_and_click_on_close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-03T15:58:29.929Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4678014400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "User login wepage and upload incorrect csv file under data import",
+        "description": "",
+        "id": "user-login-procountor-webpage-and-upload-files-with-csv-format-under-data-import-category;user-login-wepage-and-upload-incorrect-csv-file-under-data-import",
+        "after": [
+          {
+            "result": {
+              "duration": 4333943700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enter into the application site",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_enter_into_the_application_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265291200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user enter username and password",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3657222800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "login to the application",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1307354700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user clicks management and select import data",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_clicks_management_and_select_import_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1386588300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user selects Import Invoices from Import type dropdown",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_selects_Import_invoces_from_Import_type_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 329913100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user choose file with incorrect csv file from drive",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_choose_file_with_incorrect_csv_file_from_drive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1384549600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user validates that import is unsuccessful and click on cancel button",
+            "match": {
+              "location": "StepDefinitions.DataImportStepDefinition.user_validates_that_import_is_unsuccessful_and_click_on_cancel_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User login Procountor webpage and upload files with csv format under Data import category",
+    "description": "",
+    "id": "user-login-procountor-webpage-and-upload-files-with-csv-format-under-data-import-category",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DataImport.feature",
+    "tags": []
+  }
+]
